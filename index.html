@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubble Sort</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Bubble Sort</h1>
+        <p>Algoritmo de ordenação e medição de tempo</p>
+
+        <label>Quantidade de números:</label>
+        <input type="number" id="quantidade" value="10" min="2" max="1000">
+
+        <button onclick="gerarNumeros()">Gerar números</button>
+        <button onclick="ordenar()">Ordenar</button>
+
+        <h3>Números gerados:</h3>
+        <p id="antes">Clique em gerar números.</p>
+
+        <h3>Números ordenados:</h3>
+        <p id="depois">Aguardando ordenação...</p>
+
+        <h3>Tempo de execução:</h3>
+        <p id="tempo">0 ms</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
